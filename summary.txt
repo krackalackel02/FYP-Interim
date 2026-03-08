@@ -1,0 +1,18 @@
+Title1:
+Key Point 1
+Details1:
+This is some text about point 1
+* First bullet point
+** Second bullet point
+Title2:
+Key Point 2
+Details2:
+This is some text about point 2
+* First bullet point
+** Second bullet point
+Title3:
+Key Point 3
+Details3:
+This is some text about point 3
+* First bullet point
+** Second bullet point
