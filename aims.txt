@@ -1,0 +1,18 @@
+Aim1:
+This is some text about point sas
+* First bullet point
+** Second bullet point
+Circle1:
+1
+Aim2:
+This is some text about point 2
+* First bullet point
+** Second bullet point
+Circle2:
+2
+Aim3:
+This is some text about point 3
+* First bullet point
+** Second bullet point
+Circle3:
+3
