@@ -1,18 +1,18 @@
 Aim1:
-This is some text about point sas
-* First bullet point
-** Second bullet point
+$B$Nektar++ Integration$B$
+* Implement the $I$Ozaki scheme$I$ natively into the codebase
+* Target core backend operators (e.g., $I$BwdTrans$I$)
 Circle1:
 1
 Aim2:
-This is some text about point 2
-* First bullet point
-** Second bullet point
+$B$Profiling & Benchmarking$B$
+* Benchmark against highly optimized standard operators
+* Quantify actual hardware time-to-solution speedup
 Circle2:
 2
 Aim3:
-This is some text about point 3
-* First bullet point
-** Second bullet point
+$B$INT8 Algorithm Integration$B$
+* Explore the extreme low-precision ($I$INT8$I$) variant
+* Leverage integer tensor cores for max acceleration
 Circle3:
 3
