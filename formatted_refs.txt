@@ -1,2 +1,4 @@
-[1]	NVIDIA A40 datasheet.
-
+[1]	Gregor Wernet, Christian Bauer, Bernhard Steubing, Jürgen Reinhard, Emilia Moreno-Ruiz, Bo Weidema. Product Carbon Footprint (PCF) Summary for NVIDIA HGX B200. The International Journal of Life Cycle Assessment, 2016.
+[2]	volta-architecture-whitepaper. 2017.
+[3]	nvidia-ampere-architecture-whitepaper. 2020.
+[4]	gtc22-whitepaper-hopper. 2022.

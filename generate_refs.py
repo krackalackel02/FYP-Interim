@@ -48,7 +48,7 @@ def generate_ieee_refs(bib_file_path, output_path):
                 final_text = " ".join([c for c in components if c])
                 
                 # Write to file with a TAB (\t) for clean indentation in PowerPoint
-                f.write(f"[{i}]\t{final_text}\n\n")
+                f.write(f"[{i}]\t{final_text}\n")
                 
             except Exception as e:
                 print(f"Skipped {entry_key} due to missing fields: {e}")
