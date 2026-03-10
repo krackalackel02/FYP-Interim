@@ -1,18 +1,16 @@
 Aim1:
-$B$Nektar++ Integration$B$
-* Implement the $I$Ozaki scheme$I$ natively into the codebase
-* Target core backend operators (e.g., $I$BwdTrans$I$)
+$B$Validation$B$
+* Achieve $B$exact FP64 machine precision$B$ by validating the $I$Ozaki scheme$I$ in a standalone C++ sandbox.
 Circle1:
 1
 Aim2:
-$B$Profiling & Benchmarking$B$
-* Benchmark against highly optimized standard operators
-* Quantify actual hardware time-to-solution speedup
+$B$Nektar++ Integration$B$
+* Natively implement the algorithm across $B$4 core and 3 additional$B$ backend operators (e.g., $I$BwdTrans$I$).
 Circle2:
 2
 Aim3:
-$B$INT8 Algorithm Integration$B$
-* Explore the extreme low-precision ($I$INT8$I$) variant
-* Leverage integer tensor cores for max acceleration
+$B$Profiling & Hardware Benchmarking$B$
+* Achieve a $B$positive speedup$B$ against current highly performant Nektar++ operators.
+* Maintain $B$low error precision$B$ while emulating FP64.
 Circle3:
 3

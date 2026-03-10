@@ -3,3 +3,4 @@
 [3]	nvidia-ampere-architecture-whitepaper. 2020.
 [4]	gtc22-whitepaper-hopper. 2022.
 [5]	Hiroyuki Ootomo, Katsuhisa Ozaki, Rio Yokota. DGEMM on Integer Matrix Multiplication Unit. arXiv, 2024.
+[6]	Mika Balabey. High Performance Algorithms for Next Generation Computer Architectures. 2025.
