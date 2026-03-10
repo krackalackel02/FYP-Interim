@@ -1,0 +1,46 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{caption}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{table}[htbp]
+\centering
+\caption{BwdTrans Benchmark --- Quad $128 \times 128$, Order 3}
+\label{tab:bwdtrans-benchmark}
+\renewcommand{\arraystretch}{1.3}
+\footnotesize
+\begin{tabular}{l c c c c c}
+\toprule
+\textbf{Implementation} & \textbf{Time (s)} & \textbf{Tp In (GB/s)} & \textbf{Tp Out (GB/s)} & \textbf{L1 Error (per DOF)} & \textbf{Slowdown} \\
+\midrule
+SumFacTOP & $4.78 \times 10^{-5}$ & 43.9 & 68.5 & $1.83 \times 10^{-17}$ & $1.0\times$ \\
+SumFac    & $5.06 \times 10^{-5}$ & 41.4 & 64.7 & $1.83 \times 10^{-17}$ & $1.06\times$ \\
+StdMat    & $6.37 \times 10^{-5}$ & 32.9 & 51.5 & $3.40 \times 10^{-17}$ & $1.33\times$ \\
+\midrule
+Emu       & $6.21 \times 10^{-3}$ & 0.34 & 0.53 & $1.28 \times 10^{-20}$ & $130\times$ \\
+\bottomrule
+\end{tabular}
+
+\vspace{1.5em}
+
+\centering
+\captionof{table}{Key Ratios: Emu vs SumFacTOP}
+\label{tab:key-ratios}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{l l}
+\toprule
+\textbf{Metric} & \textbf{Emu vs SumFacTOP} \\
+\midrule
+Speed      & $130\times$ slower \\
+Accuracy   & $1{,}430\times$ smaller L1 error \\
+Throughput & 0.53 GB/s vs 68.5 GB/s \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
