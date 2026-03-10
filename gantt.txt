@@ -1,0 +1,32 @@
+Job1:
+Optimise BWDTrans
+Box1:
+* Operator refinement
+** Minimise memory movement.
+* Tuning
+** Spped / Tolerance.
+Job2:
+Implement Others
+Box2:
+* Extend remaining operators
+** Apply algorithm.
+Job3:
+Benchmark
+Box3:
+* Nektar++
+* cuBLAS
+Job4:
+Integrate INT8
+Box4:
+* Ogita Algorithm
+** Using CRT & Scaling.
+Job5:
+First Draft
+Box5:
+* Conclusions
+** Address future work.
+Job6:
+Final Edits
+Box6:
+* Review Cycle
+** Address feedback.
